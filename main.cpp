@@ -9,10 +9,10 @@ int main()
     int count = 0;
     while(1) {
 
-        if(Button ==1) {
-		printf("|");
+        if(Button ==1) { //check the button state
+		printf("|"); //one if it is High
 	} else{
-		printf("0");
+		printf("0"); //zero if it is Low
 	}
     }
 
